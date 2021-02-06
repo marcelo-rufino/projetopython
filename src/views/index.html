@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class=" bd-dark p-5 " style="height: 100vh;">
+        <div class="container-fluid border p-4 bg-white shadow  mb-5 rounded  ">
+            <h1 class="text-info " >Calculadora Básica</h1>
+            <hr/>
+            <form action=" " method="POST">
+                <input type="number" placeholder="Digite um numero" name="input1" class="form-control my-3 shadow" > 
+                <input type="number" placeholder="Digite um numero" name="input2" class="form-control my-3 shadow"> 
+                <input type="radio" name ="condicionais" id="soma" value="soma" >
+                <label for="soma">Soma</label>
+
+                <input type="radio" name ="condicionais" id="soma" value="sub" >
+                <label for="subt">Subtrair</label>
+
+                <input type="radio" name ="condicionais" id="soma" value="mult" >
+                <label for="multi">Multiplacação</label>
+                <input type="radio" name ="condicionais" id="soma" value="div" >
+                <label for="div">Divisão</label>
+
+                <br>
+                <div class="mt-4">  
+                    <button class="btn btn-outline-success shadow">=</button>
+                    <button class="btn  btn-outline-info shadow" type="reset">DEL</button>
+                </div>
+              
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
